@@ -1,16 +1,36 @@
-# React + Vite
+# 🎮 Loja de Consoles - Projeto de Estudo em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto simples desenvolvido como parte de uma atividade para a disciplina de front-end. A aplicação é uma vitrine virtual para uma loja de consoles, construída com o objetivo de praticar os conceitos fundamentais do React, como componentização e props.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funcionalidades
 
-## React Compiler
+-   **Vitrine de Produtos:** Exibição de uma lista de consoles com imagem, nome e preço.
+-   **Componentização:** Utilização de um componente React reutilizável (`CardConsole`) para exibir cada produto de forma padronizada.
+-   **Estilização:** Layout simples e agradável utilizando CSS puro para estilizar os componentes.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## 🚀 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+O projeto foi desenvolvido com as seguintes tecnologias:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   **[React](https://reactjs.org/)**: Biblioteca para construir interfaces de usuário.
+-   **[Vite](https://vitejs.dev/)**: Ferramenta de build moderna e rápida para o desenvolvimento front-end.
+-   **JavaScript**: Linguagem de programação.
+-   **CSS**: Para estilização.
+
+## ⚙️ Como Executar o Projeto Localmente
+
+Para rodar este projeto na sua máquina, siga os passos abaixo:
+
+```bash
+# 1. Clone este repositório
+git clone [https://github.com/tonhogersin/Front-End](https://github.com/seu-usuario/loja-de-consoles.git)
+
+# 2. Acesse a pasta do projeto no terminal
+cd loja-de-consoles
+
+# 3. Instale as dependências necessárias
+npm install
+
+# 4. Inicie o servidor de desenvolvimento
+npm run dev
